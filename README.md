@@ -5,16 +5,22 @@ Additionally, a second model has also been trained, for recognising if a face is
   
 <img src="images/emotion_ML.jpg"/>
   
+</br>  
+  
 ------------------------  
   
 ### Datasets
 The dataset used for training and testing the emotion recognition model is made up of over 27,000 48x48 grayscale images of human faces, categorised into seven different categories based on facial expression: anger, disgust, fear, happiness, neutrality, sadness, and surprise.  
 Sources: [1](https://www.kaggle.com/datasets/sudarshanvaidya/random-images-for-face-emotion-recognition), [2](https://www.kaggle.com/datasets/jonathanoheix/face-expression-recognition-dataset)  
-<img src="images/emotion_faces.png" height="400"/>  
+<img src="images/emotion_faces.png" height="200"/>  
+  
+</br>  
   
 The second dataset, used for the human face recognition model, is made up of images divided into "human" and "others".  
 Source: [3](https://www.kaggle.com/datasets/prasunroy/natural-images)  
-<img src="images/other.png" height="400"/>  
+<img src="images/other.png" height="200"/>  
+  
+</br>  
   
 ---------------------  
   
@@ -27,10 +33,14 @@ To prepare the dataset for use:
 - Scaled the data using MinMaxScaler()
 - One-Hot encoded the data using the Keras to_categorical() function.  
   
+</br>  
+  
 --------------
   
 ### Models  
 The model has been built using a deep convolutional neural network (CNN) architecture. The CNN has been trained using the Adam optimizer and the categorical cross-entropy loss function.  
+  
+</br>  
   
 -----------------
   
@@ -38,6 +48,8 @@ The model has been built using a deep convolutional neural network (CNN) archite
 After training the two models with the testing split of either the human emotion recognition dataset or the human face recognition dataset, they have been validated on the testing split from their respective datasets.  
 In training, the human emotion recognition model achieved an accuracy of ??? and a loss of ???, while the human face recognition model achieved an accuracy of ??? and a loss of ???.  
 In testing, the human emotion recognition model achieved an accuracy of ??? and a loss of ???, while the human face recognition model achieved an accuracy of ??? and a loss of ???.  
+  
+</br>  
   
 ---------------------
   
