@@ -3,18 +3,18 @@
 This project aims to develop a machine learning model that can accurately classify human emotions based on facial expressions.  
 Additionally, a second model has also been trained, for recognising if a face is human or not, for potential use in conjunction with the initial emotion recognition model.  
   
-![cover](./images/emotion_ML.png)
+![cover](./images/emotion_ML.jpg =x)
   
 ------------------------  
   
 ### Datasets
 The dataset used for training and testing the emotion recognition model is made up of over 27,000 48x48 grayscale images of human faces, categorised into seven different categories based on facial expression: anger, disgust, fear, happiness, neutrality, sadness, and surprise.  
 Sources: [1](https://www.kaggle.com/datasets/sudarshanvaidya/random-images-for-face-emotion-recognition), [2](https://www.kaggle.com/datasets/jonathanoheix/face-expression-recognition-dataset)  
-![emotions](./images/emotion_face.png)
+![emotions](./images/emotion_faces.png =x800)
   
 The second dataset, used for the human face recognition model, is made up of images divided into "human" and "others".  
 Source: [3](https://www.kaggle.com/datasets/prasunroy/natural-images)  
-![other](./images/other.png)
+![other](./images/other.png =x800)
   
 ---------------------  
   
