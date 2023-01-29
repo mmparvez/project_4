@@ -10,11 +10,11 @@ Additionally, a second model has also been trained, for recognising if a face is
 ### Datasets
 The dataset used for training and testing the emotion recognition model is made up of over 27,000 48x48 grayscale images of human faces, categorised into seven different categories based on facial expression: anger, disgust, fear, happiness, neutrality, sadness, and surprise.  
 Sources: [1](https://www.kaggle.com/datasets/sudarshanvaidya/random-images-for-face-emotion-recognition), [2](https://www.kaggle.com/datasets/jonathanoheix/face-expression-recognition-dataset)  
-<img src="images/emotion_faces.png" height="800"/>  
+<img src="images/emotion_faces.png" height="400"/>  
   
 The second dataset, used for the human face recognition model, is made up of images divided into "human" and "others".  
 Source: [3](https://www.kaggle.com/datasets/prasunroy/natural-images)  
-<img src="images/other.png" height="800"/>  
+<img src="images/other.png" height="400"/>  
   
 ---------------------  
   
