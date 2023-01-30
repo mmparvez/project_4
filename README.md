@@ -20,7 +20,7 @@ The dataset used for training and testing the emotion recognition model is made 
   
 </br>  
   
-The second dataset, used for the human face recognition model, is made up of images divided into "human" and "others". Images from the previous dataset were used for "human", while "others" contains various other things, such as cares, animals, plants, etc.  
+The second dataset, used for the human face recognition model, is made up of images divided into "human" and "others". Images from the previous dataset were used for "human", while "others" contains various other things, such as cars, animals, plants, etc.  
   
 <p align="center">
   <img src="images/other.png" height="200"/>
