@@ -1,7 +1,7 @@
 # Human Emotion Recognition  
   
 This project aims to develop a machine learning model that can accurately classify human emotions based on facial expressions.  
-Additionally, second model has also been trained, for recognising if an image is a human face or not, for potential use in conjunction with the initial emotion recognition model.  
+Additionally, a second model has also been trained, for recognising if an image is a human face or not, for potential use in conjunction with the initial emotion recognition model.  
   
 <img src="images/emotion_ML.jpg"/>
   
@@ -20,7 +20,7 @@ The dataset used for training and testing the emotion recognition model is made 
   
 </br>  
   
-The second dataset, used for the human face recognition model, is made up of images divided into "human" and "others". Images from the previous dataset were used for "human", while "others" contains various other things, such as cars, animals, plants, etc.  
+The second dataset, used for the human face recognition model, is made up of images divided into "human" and "others". Images from the previous dataset were used for "human", while "others" contains images of various other things, such as cars, animals, plants, etc.  
   
 <p align="center">
   <img src="images/other.png" height="200"/>
@@ -34,7 +34,7 @@ The second dataset, used for the human face recognition model, is made up of ima
   
 ### Preprocessing  
 To prepare the dataset for use:  
-- Images were programmatically renamed for clarity, e.g. Anger images were renamed as: "an_0", "an_1", "an_2", etc.  
+- Images were programmatically renamed for clarity and ease of use, e.g. Anger images were renamed as: "an_0", "an_1", "an_2", etc.  
 - Where necessary, images were resized and converted to grayscale.  
 - Created a function for converting images to NumPy arrays, in which the values in the array are representative of the RGB values for each pixel.  
 - Split both datasets into two, for training and testing.  
