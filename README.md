@@ -16,7 +16,7 @@ The dataset used for training and testing the emotion recognition model is made 
   <img src="images/emotion_faces.png" height="200"/>
 </p>  
 
-*Sources*: [1](https://www.kaggle.com/datasets/sudarshanvaidya/random-images-for-face-emotion-recognition), [2](https://www.kaggle.com/datasets/jonathanoheix/face-expression-recognition-dataset)  
+*Sources*: [Emotion Data](https://www.kaggle.com/datasets/jonathanoheix/face-expression-recognition-dataset)  
   
 </br>  
   
@@ -26,7 +26,7 @@ The second dataset, used for the human face recognition model, is made up of ima
   <img src="images/other.png" height="200"/>
 </p>  
 
-*Source*: [3](https://www.kaggle.com/datasets/prasunroy/natural-images)  
+*Source*: [Face Recognition Data](https://www.kaggle.com/datasets/prasunroy/natural-images)  
   
 </br>  
   
